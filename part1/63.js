@@ -16,4 +16,4 @@ const userCart = [
 ]
 
 const ans = userCart.some((cartItem)=>cartItem.price > 100000);
-console.log(ans);
+console.log(ans); //false
