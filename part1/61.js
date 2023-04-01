@@ -1,13 +1,13 @@
 // find method 
 
-// const myArray = ["Hello", "catt", "dog", "lion"];
+const myArray = ["Hello", "catt", "dog", "lion"];
 
-// function isLength3(string){
-//     return string.length === 3;
-// }
+function isLength3(string){
+    return string.length === 3;
+}
 
-// const ans = myArray.find((string)=>string.length===3);
-// console.log(ans);
+const ans = myArray.find((string)=>string.length===3);
+console.log(ans);
 
 const users = [
     {userId : 1, userName: "harshit"},
