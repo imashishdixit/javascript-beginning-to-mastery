@@ -20,12 +20,12 @@ console.log(ans);
 //     return number % 2 === 0;
 // }
 
-const isEven = number => number % 2 === 0;
+const isEven = number => number % 2 === 0;  // here return is hidden
 
 
 console.log(isEven(4));
 
-const firstChar = anyString => anyString[0];
+const firstChar = anyString => anyString[0];  // here return is hidden but it will still return the value
 
 console.log(firstChar("harshit"));
 
