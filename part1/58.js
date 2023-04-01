@@ -1,4 +1,5 @@
 // filter method 
+//it gives the array of values which satisfy the condition
 
 const numbers = [1,3,2,6,4,8];
 
