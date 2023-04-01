@@ -7,5 +7,12 @@ const band = {
 };
 
 let { bandName, famousSong, ...restProps } = band;
+//To create a variable with different key we can use 
+let var1 = '';
+
+const {bandName : var1} = band; // 
+console.log(var1) // led zeppline
+
+
 console.log(bandName);
-console.log(restProps);
+console.log(restProps);  // { year:1968 , anotherFamousSong : "Kashmir"};
