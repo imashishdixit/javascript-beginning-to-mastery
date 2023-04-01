@@ -2,7 +2,7 @@
 
 const user  = {
     firstName: "harshit",
-    // address: {houseNumber: '1234'}
+    address: {houseNumber: '1234'}
 }
 
 
