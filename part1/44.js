@@ -12,21 +12,21 @@ function sumThreeNumbers(number1, number2, number3){
 // input : 1 number 
 // output : true , false 
 
-// function isEven(number){
-//     return number % 2 === 0;
-// }
+function isEven(number){
+    return number % 2 === 0;
+}
 
-// console.log(isEven(4));
+console.log(isEven(4));
 
 // function 
 // input : string 
 // output: firstCharacter 
 
-// function firstChar(anyString){
-//     return anyString[0];
-// }
+function firstChar(anyString){
+    return anyString[0];
+}
 
-// console.log(firstChar("zbc"));
+console.log(firstChar("zbc"));
 
 // function 
 // input : array, target (number)
