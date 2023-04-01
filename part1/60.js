@@ -101,16 +101,16 @@
 // ["5", "9", "1210", "410", "3000"] 
 // [53, 57, 49, 52, 51]
 
-// const userNames = ['harshit', 'abcd', 'mohit', 'nitish', 'aabc', 'ABC', 'Harshit'];
-// userNames.sort();
-// console.log(userNames);
+const userNames = ['harshit', 'abcd', 'mohit', 'nitish', 'aabc', 'ABC', 'Harshit'];
+userNames.sort();
+console.log(userNames);
 
-// const numbers = [5,9,1200, 410, 3000];
-// numbers.sort((a,b)=>{
-//     return b-a;
-// });
-// numbers.sort((a,b)=>a-b);
-// console.log(numbers);
+const numbers = [5,9,1200, 410, 3000];
+numbers.sort((a,b)=>{
+    return b-a;
+});
+numbers.sort((a,b)=>a-b);
+console.log(numbers);
 
 // 1200,410 
 // a-b ---> 790
