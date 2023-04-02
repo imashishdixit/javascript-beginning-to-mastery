@@ -9,6 +9,6 @@ const user1 = {
 
 // don't do this mistake 
 
-// user1.about();
-const myFunc = user1.about.bind(user1);
-myFunc();
+user1.about(); 
+const myFunc = user1.about.bind(user1); 
+myFunc(); // 
