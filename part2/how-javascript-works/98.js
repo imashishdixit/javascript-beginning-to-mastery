@@ -6,16 +6,16 @@
 
 // function can return functions
 
-// function outerFunction(){
-//     function innerFunction(){
-//         console.log("hello world")
-//     }
-//     return innerFunction;
-// }
+function outerFunction(){
+    function innerFunction(){
+        console.log("hello world")
+    }
+    return innerFunction;
+}
 
-// const ans = outerFunction();
-// // console.log(ans);
-// ans();
+const ans = outerFunction();
+// console.log(ans);
+ans();
 
 
 function printFullName(firstName, lastName){
